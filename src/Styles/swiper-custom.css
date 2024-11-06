@@ -1,0 +1,14 @@
+/* Customize Swiper Navigation Arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: black; /* Change color to black */
+}
+
+/* Customize Swiper Pagination Bullets */
+.swiper-pagination-bullet {
+  background: black; /* Change bullet color to black */
+}
+
+.swiper-pagination-bullet-active {
+  background: grey; /* Optional: Change active bullet color for better visibility */
+}

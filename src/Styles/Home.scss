@@ -1,0 +1,42 @@
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(199, 202, 204);
+  > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInAnimation ease-in 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    > h1 {
+      font-size: 3.5rem;
+      margin-top: 50vh;
+    }
+    > p {
+      font-size: 1.5rem;
+    }
+    @keyframes fadeInAnimation {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}
+// .home_3 {
+//   width: 100%;
+//   height: 100vh;
+//   background-color: rgb(177, 136, 136);
+//   color: white;
+//   > center {
+//     font-size: 3rem;
+//     padding-top: 30px;
+//     font-weight: 700;
+//   }
+// }
